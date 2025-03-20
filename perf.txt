@@ -1,0 +1,6 @@
+Create dataloader takes : 0.0 sec
+Create images takes : 0.005506992340087891 sec.
+Model inference takes : 11.494160413742065 sec.
+Compute loss takes : 0.011401176452636719 sec.
+Compute gradients takes : 68.41802382469177 sec.
+Performing SGD takes : 0.035062551498413086 sec.
