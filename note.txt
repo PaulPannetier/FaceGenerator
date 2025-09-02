@@ -15,7 +15,8 @@
                 "test_proportion":0.1,
                 "lr":0.002
             ]
-            "performance":6
+            "performance":6,
+            "size_mb":32,722,
         },
         {
             "unet_version":"0.1",
@@ -32,7 +33,26 @@
                 "test_proportion":0.1,
                 "lr":0.002
             ]
-            "performance":0
+            "performance":0,
+            "size_mb":32,722,
+        },
+        {
+            "unet_version":"0.2",
+            "training_hyperparams":[
+                "beta_scheduler_start":0.0001,
+                "beta_scheduler_end":0.02,
+                "in_channels":3,
+                "base_channels":64,
+                "beta_schedule_type":"linear",
+                "batch_size":8,
+                "timestep":1000,
+                "ema_decay":0.999,
+                "epochs":550,
+                "test_proportion":0.1,
+                "lr":0.002
+            ]
+            "performance":10,
+            "size_mb":401,730,
         },
     ]
 }
