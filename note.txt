@@ -42,7 +42,7 @@
                 "beta_scheduler_start":0.0001,
                 "beta_scheduler_end":0.02,
                 "in_channels":3,
-                "base_channels":64,
+                "base_channels":128,
                 "beta_schedule_type":"linear",
                 "batch_size":8,
                 "timestep":1000,
